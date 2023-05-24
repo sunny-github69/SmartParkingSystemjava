@@ -13,7 +13,7 @@ public class get_Connection {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/vpms_db", "root", "1234");
+			conn = DriverManager.getConnection("jdbc:mysql://containers-us-west-80.railway.app:5445/railway", "root", "kbI2nkW3Tv3Azjoguwk5");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
